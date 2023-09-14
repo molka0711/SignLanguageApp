@@ -1,0 +1,51 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello"
+      ],
+      "responses": [
+        "https://media.giphy.com/media/3o7TKNKOfKlIhbD3gY/giphy.gif"
+            ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "https://media.giphy.com/media/3o7TKSRNcdPmcNmTGo/giphy.gif", 
+        "https://media.giphy.com/media/3FPW0xwCHdKCQXhDWE/giphy.gif"]
+    },
+    {
+      "tag": "i love you",
+      "patterns": ["I love you"],
+      "responses": ["https://media.giphy.com/media/l0MYrlUnFtq25TQR2/giphy.gif"]
+    },
+    {
+      "tag": "Ok",
+      "patterns": ["Ok", "Okey", "Okay"],
+      "responses": [
+        "https://media.giphy.com/media/r4N5NIckk37x76byEf/giphy.gif"]
+    },
+    {
+      "tag": "Good",
+      "patterns": ["good"],
+      "responses": [
+        "https://media.giphy.com/media/VUYTIed7MnjoY/giphy.gif"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me","Help"],
+      "responses": [
+        "https://media.giphy.com/media/26FKWxLSlHTGeIdlS/giphy.gif"]
+    },
+    {
+      "tag": "hhh",
+      "patterns": ["hhh","jjj","ggg"],
+      "responses": [
+        "https://media.giphy.com/media/26FL0X4d3Epuecpj2/giphy.gif"]
+    }
+  ]
+}
